@@ -21,6 +21,8 @@ default: width:200px;
 attributes: 
   width
   height
+  answer
+  gloss
 default: width:100%; height:200px
 
 [dropdown][/dropdown]
