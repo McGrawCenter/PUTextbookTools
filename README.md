@@ -8,6 +8,7 @@ a Wordpress plugin that adds insteractive form elements to textbooks
 attributes: 
 	width
 	height
+	instructions
 default: width:100%; height:200px
 	
 [text]
