@@ -1,0 +1,95 @@
+
+
+
+.responsecontainer {
+  margin-bottom: 0px;
+}
+
+.responsecontainer label {
+  padding: 3px 9px;
+  background:#EFEFEF;
+}
+
+.responsecontainer.inline label { display:inline; margin-right: 10px; }
+
+label.radio.correct 	{ background:#0b0; color:white; }
+label.checkbox.correct { background:#0b0; color:white; }
+.correct-icon { 
+  height: 20px;
+  padding: 0 0 4px 4px;
+}
+
+.textarea-instructions { font-size:0.9em;color:#666;text-align:center; }
+
+
+
+/*********** NOT SURE IF WE NEED BELOW THIS *******/
+
+
+
+.textcontainer {
+  position: relative;
+  display: inline-block !important;
+}
+.showanswer {
+  font-size: 1.3em;
+  color: grey;
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  margin-top: 8px;
+}
+
+#popup-message {
+  position: absolute;
+  background: white none repeat scroll 0% 0%;
+  border:solid 1px grey;
+  border-radius:10px;
+  padding: 3px 10px;
+  box-shadow: 0px 0px 12px #444;
+}
+
+.glossed {
+  background-image: url("../images/gloss-grey2.png");
+  background-repeat:no-repeat;
+  background-position:right center;
+  cursor:pointer;
+}
+.gloss {
+  position: absolute;
+  right: 0px;
+  top: -34px;
+  background: black;
+  color: white;
+  padding: 4px 12px;
+  font-weight: bold;
+}
+.gloss strong {
+  color:white;
+}
+
+.correct {
+  //color:green;
+  //content: " <span class='dashicons dashicons-yes'></span>";
+}
+
+
+
+.radioinline { display:inline-block;margin-right:12px; }
+.checkboxinline { display:inline-block;margin-right:12px; }
+
+.incorrect {
+  color:red;
+
+  //content: " <span class='dashicons dashicons-no-alt'></span>";
+}
+
+label {
+  font-weight:normal !important;
+}
+
+
+
+input[type="radio"], input[type="checkbox"] {
+    margin-bottom:0px;
+}
